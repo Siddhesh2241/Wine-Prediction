@@ -17,10 +17,12 @@ This Streamlit app allows users to upload a dataset, perform exploratory data an
 - **Modeling**:
   - Apply the K-Neighbors algorithm for classification.
   - Display accuracy for different values of `n_neighbors`.
-
-## Installation
-
-To run this app locally, you'll need to have Python installed. You can install the necessary packages by running:
-
-```bash
-pip install -r requirements.txt
+  **Uploading Data**:
+   - Click on the "Browse files" button or drag and drop your CSV file.
+   - The app will automatically display the data and perform the initial analysis.
+  **Exploratory Data Analysis**:
+   - The app displays the first few rows, column types, and summary statistics.
+   - You can view histograms of all features and the count of each class.
+  **Model Training and Evaluation**:
+   - The app uses the K-Neighbors algorithm to classify the data.
+   - The accuracy for different n_neighbors values is displayed.
